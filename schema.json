@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+     "Init": {
+      "title": "Init Value",
+      "description": "Initial value to show",
+      "type": "string"
+    }
+  }
+}

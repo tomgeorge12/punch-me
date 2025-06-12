@@ -1,11 +1,20 @@
 {
   "manifest_version": 3,
   "name": "Punch Me!",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Punch to know the pressure.",
   "action": {
     "default_title": "Punch Me!",
     "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ],
+ "storage": {
+    "managed_schema": "schema.json"
   },
   "icons": {
     "16": "punch.png",
